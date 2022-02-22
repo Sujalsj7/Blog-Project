@@ -47,7 +47,11 @@ i {
   position: relative;
 }
 #navbarSupportedContent > ul > li.active > a {
+<<<<<<< HEAD
   color:  #16171b;
+=======
+  color: #16171b;
+>>>>>>> f3a55997ce34c8d46b4a2836965238c4d6c8c1cc
   background-color: transparent;
   transition: all 0.7s;
 }
@@ -166,6 +170,7 @@ i {
   }
 }
 
+<<<<<<< HEAD
 
 
 /* ------Section1--------- */
@@ -289,3 +294,6 @@ section div{
   -webkit-filter:brightness(0.55);
   filter:brightness(0.55);
 } 
+=======
+/* ----home-------- */
+>>>>>>> f3a55997ce34c8d46b4a2836965238c4d6c8c1cc
