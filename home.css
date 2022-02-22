@@ -47,11 +47,7 @@ i {
   position: relative;
 }
 #navbarSupportedContent > ul > li.active > a {
-<<<<<<< HEAD
   color:  #16171b;
-=======
-  color: #16171b;
->>>>>>> f3a55997ce34c8d46b4a2836965238c4d6c8c1cc
   background-color: transparent;
   transition: all 0.7s;
 }
@@ -158,7 +154,7 @@ i {
     left: auto;
   }
   .hori-selector .right {
-    bottom: -25px;
+    bottom: -25px;S
   }
   .hori-selector .left:before {
     left: -25px;
@@ -170,14 +166,14 @@ i {
   }
 }
 
-<<<<<<< HEAD
 
 
 /* ------Section1--------- */
 
 .d-flex{
   height: 80vh;
-  background: #222222;
+  background-color:#222222 ;
+
 }
 
  section{
@@ -294,6 +290,3 @@ section div{
   -webkit-filter:brightness(0.55);
   filter:brightness(0.55);
 } 
-=======
-/* ----home-------- */
->>>>>>> f3a55997ce34c8d46b4a2836965238c4d6c8c1cc
