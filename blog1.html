@@ -34,6 +34,60 @@
         #backButton:hover {
             color: #079b2e;
         }
+
+        #main-footer {
+            background: linear-gradient(90deg,
+                    rgb(0, 0, 0),
+                    rgb(54, 52, 52),
+                    rgb(0, 0, 0));
+        }
+
+        #iconLinks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2rem;
+            width: 2rem;
+        }
+
+        #twitter,
+        #facebook {
+            font-size: 1.5rem;
+            background-color: #18191f;
+            color: #fff;
+            box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+                2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080;
+            border-radius: 29px;
+            padding: 11px 14px;
+            margin: 0 15px;
+            animation: animate 3s linear infinite;
+            text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+                0 0 200px #0072ff;
+        }
+
+        #twitter {
+            animation-delay: 0.3s;
+        }
+
+        #facebook {
+            animation-delay: 0.7s;
+        }
+
+        #github {
+            animation-delay: 0.1s;
+        }
+
+        @keyframes animate {
+            from {
+                filter: hue-rotate(0deg);
+            }
+
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
     </style>
 </head>
 
@@ -88,6 +142,22 @@
             <hr class="p">
         </div>
     </section>
+
+    <footer>
+        <footer id="main-footer" class="text-center p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-white font-size">Copyright &copy; <span id="year"></span>EMPERORBTCTUTS</p>
+                        <div class="container py-4 mt-4" id="iconLinks">
+                            <a href=""><i class="fa fa-twitter" id="twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook-square" id="facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
 </body>
 
 </html>
